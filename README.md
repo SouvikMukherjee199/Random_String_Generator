@@ -162,6 +162,4 @@ Styling
 - Run linting locally before submitting.
 
 
-## License
 
-No license specified yet. If you plan to share or open-source this project, add a LICENSE file (e.g., MIT) and update this section.

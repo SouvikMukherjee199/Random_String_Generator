@@ -36,14 +36,14 @@ const About = () => {
     tl.fromTo(
       leftRef.current,
       { opacity: 0, x: -100 },
-      { opacity: 1, x: 0, duration: 1.4, ease: "power1.out" },
+      { opacity: 1, x: 0, duration: 1.4, ease: "power3.out" },
       0
     );
 
     tl.fromTo(
       rightRef.current,
       { opacity: 0, x: 100 },
-      { opacity: 1, x: 0, duration: 1.4, ease: "power1.out" },
+      { opacity: 1, x: 0, duration: 1.4, ease: "power3.out" },
       0 
     );
   }

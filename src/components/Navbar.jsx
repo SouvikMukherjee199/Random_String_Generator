@@ -1,5 +1,6 @@
 
 import { CopyIcon, EyeIcon, EyeOffIcon, LockIcon, ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
   <header className="bg-gray-800 shadow-md">
@@ -9,9 +10,9 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold tracking-tight text-gray-50">SecurePass</h1>
       </div>
       <nav className="hidden sm:flex space-x-4">
-        <a href="/" className="hover:text-indigo-400 transition-colors">Home</a>
-        <a href="/About" className="hover:text-indigo-400 transition-colors">About</a>
-        <a href="/Contact" className="hover:text-indigo-400 transition-colors">Contact</a>
+        <Link to="/" className="hover:text-indigo-400 transition-colors">Home</Link>
+        <Link to="/About" className="hover:text-indigo-400 transition-colors">About</Link>
+        <Link to="/Contact" className="hover:text-indigo-400 transition-colors">Contact</Link>
       </nav>
     </div>
   </header>

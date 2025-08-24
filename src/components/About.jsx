@@ -95,14 +95,14 @@ const About = () => {
           <CardContent>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
               {developers.map((dev, index) => (
-                <div key={index} className="flex items-center gap-4 bg-gray-700 p-4 rounded-md shadow">
+                <div key={index} className="flex flex-col text-center items-center gap-4 bg-gray-700 p-4 rounded-md shadow">
                   <img
                     src={dev.image}
                     alt={dev.name}
-                    className="w-30 h-27 rounded-full object-cover border border-gray-600"
+                    className="w-16 h-16 rounded-full object-cover border border-gray-600"
                   />
                   <div>
-                    <h4 className="text-gray-50 font-semibold">{dev.name}</h4>
+                    <h4 className="text-gray-50 text-base font-semibold">{dev.name}</h4>
                     <p className="text-sm text-indigo-400">{dev.role}</p>
                   </div>
                 </div>

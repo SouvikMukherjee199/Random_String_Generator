@@ -161,5 +161,13 @@ Styling
 - Fork the repo, create a feature branch, commit your changes, and open a pull request.
 - Run linting locally before submitting.
 
+## Workflow
+
+![Initialization](./Demo_Images/Initialization.png "Initial State on StartUp")
+![Include only special characters ](./Demo_Images/Include_Only_Special_chars.png "Include only special characters")
+![Include Special characters and uppercase letters](./Demo_Images/Include_Special_Characters_Upper_Case_Letters.png "Include special characters and uppercase letters")
+![Increase the password length](./Demo_Images/Increase_Password_Length.png "Increase the password length")
+![Copy the selected password](./Demo_Images/Copy_Selected_Password.png "Copy the selected password")
+
 
 

@@ -7,6 +7,7 @@ import { Textarea } from "./ui/Textarea";
 import { Button } from "./ui/Button";
 import { Separator } from "./ui/Separator";
 import { MailIcon, MapPinIcon } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const ContactPage = () => {
   const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm();
@@ -49,9 +50,9 @@ const ContactPage = () => {
             <MailIcon className="h-6 w-6 text-indigo-400" />
             <div>
               <h4 className="font-semibold text-white">Email</h4>
-              <a href="mailto:support@securepass.com" className="text-indigo-400 hover:text-indigo-300 transition">
+              <Link to="mailto:support@securepass.com" className="text-indigo-400 hover:text-indigo-300 transition">
                 support@securepass.com
-              </a>
+              </Link>
             </div>
           </div>
           <Separator className="bg-gray-700" />

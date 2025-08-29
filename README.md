@@ -149,11 +149,6 @@ Styling
 - Team images referenced in `About.jsx` are served from `/public` (S1.jpg, S2.jpg, S3.jpg, s4.jpg). Update or replace them as needed.
 
 
-<!-- ## Known Issues / TODO
-
-- Clipboard API: `document.execCommand('copy')` is deprecated in some contexts. Consider migrating to `navigator.clipboard.writeText` for better compatibility.
-- Nav links: `Navbar.jsx` uses anchor tags (`<a href>`). Converting to React Router `<Link>` can avoid full page reloads.
-- index.html stylesheet link: Ensure the stylesheet reference matches your setup. This project imports Tailwind via `src/index.css`. -->
 
 
 ## Contributing
